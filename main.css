@@ -1,0 +1,102 @@
+body{
+    margin: 0;
+}
+
+.site-map{
+    position: relative;
+    height: 300px;
+    background-image: url('./img/mapwindturbine.jpg');
+    background-repeat: no-repeat;
+
+}
+
+.dot{
+    position: absolute;
+    height: 13px;
+    width: 13px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 0 0 2px 	rgb(44, 44, 44);
+    
+}
+
+.dot.green{
+    height: 13px;
+    width: 13px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0 0 0 2px rgb(44, 44, 44);
+}
+
+#turbine1{
+    
+    top: 100px;
+    left: 45px;
+}
+#turbine2{
+    top: 120px;
+    left: 60px;
+
+}
+
+#turbine3{
+    top: 135px;
+    left: 80px;
+
+}
+
+#turbine4{
+    top: 148px;
+    left: 140px;
+
+}
+
+#turbine5{
+    top: 180px;
+    left: 195px;
+
+}
+
+#turbine6{
+    top: 132px;
+    left: 260px;
+
+}
+
+#turbine7{
+    top: 175px;
+    left: 330px;
+
+}
+
+#turbine8{
+    top: 150px;
+    left: 415px;
+
+}
+
+#turbine9{
+    top: 115px;
+    left: 345px;
+
+}
+span.clicked {
+    background-color: #4BB543;
+  }
+
+  .label{
+    position: absolute;
+      top: 220px;
+      left: 5px;
+  }
+
+  .scroll{
+  overflow: auto;
+  max-height: 200px;
+  }
+
+  #btn{
+      left: 500px;
+  }
